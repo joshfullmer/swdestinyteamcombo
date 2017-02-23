@@ -1,5 +1,5 @@
 require 'csv'
-
+=begin
 pointcosts = {Ackbar: [0,10,14],
                 Leia: [0,12,16],
                 Poe: [0,14,18],
@@ -25,7 +25,7 @@ possiblecount = {Ackbar: (0..2).to_a,
                    Han: (0..2).to_a,
                    HG: (0..3).to_a,
                    Padme: (0..2).to_a}
-=begin
+=end
 
 pointcosts = {Phasma: [0,12,15],
               FOS: [0,7,14,21,28],
@@ -52,15 +52,6 @@ possiblecount = {Phasma: (0..2).to_a,
                    Jabba: (0..2).to_a,
                    Jango: (0..2).to_a,
                    TR: (0..3).to_a}
-
-pointcosts = {Phasma: [0,12,15],
-              FOS: [0,7,14,21,28],
-              GG: [0,13,18]}
-
-possiblecount = {Phasma: (0..2).to_a,
-                   FOS: (0..4).to_a,
-                   GG: (0..2).to_a}
-=end
 
 #############################################################
 # Create baseline combinations
