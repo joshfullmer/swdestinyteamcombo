@@ -35,6 +35,7 @@ pointcosts = {Phasma: [0,12,15],
               Vader: [0,16,21],
               Kylo: [0,10,13],
               NS: [0,8,16,24],
+              Palp: [0,16,21],
               Bala: [0,8,11],
               Jabba: [0,11,14],
               Jango: [0,12,16],
@@ -48,6 +49,7 @@ possiblecount = {Phasma: (0..2).to_a,
                    Vader: (0..2).to_a,
                    Kylo: (0..2).to_a,
                    NS: (0..3).to_a,
+                   Palp: (0..2).to_a,
                    Bala: (0..2).to_a,
                    Jabba: (0..2).to_a,
                    Jango: (0..2).to_a,
@@ -68,7 +70,7 @@ end
 possibilities = product_hash(possiblecount)
 
 #############################################################
-# Give each possibility a Dice count, a total point count, 
+# Give each possibility a Dice count, a total point count,
 # and a unique ID used to find only the most efficient
 # combinations
 
